@@ -483,6 +483,7 @@ a:active {
     text-align: var(--section-footer-align);
 }
 
+
 /* Navigation */
 
 .header {
@@ -493,15 +494,11 @@ a:active {
     position: var(--header-logo-position);
 }
 
-.header-logo > a {
+.header-logo a {
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
     top: var(--header-logo-link-top);
     left: var(--header-logo-link-left);
-}
-
-.navbar-menu {
-    float: right;
 }
 
 .navbar-menu {
